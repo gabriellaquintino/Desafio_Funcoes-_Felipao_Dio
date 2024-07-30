@@ -15,8 +15,8 @@ def victory_defeat(num_vict,num_def):
     elif balance_rank >= 100:
         balance = "Imortal"
 
-        return print(f"O Herói tem um saldo de {balance_rank} e está no nível de {balance}")
+    return print(f"O Herói tem um saldo de {balance_rank} e está no nível de {balance}")
     
 
-result =  victory_defeat(500,60)
+result =  victory_defeat(20,10)
 print(result)
